@@ -3,7 +3,8 @@
 }
 
 :root {
-    --primary-color: #0F1B4C
+    --primary-color: #0F1B4C;
+    --text-color: #0c0f42;
 }
 
 html {
@@ -38,12 +39,15 @@ body {
 
 .btn:hover {
     opacity: 0.9;
+    cursor: pointer;
 }
 
 /* Header */
 .header {
     background-color: #e6f0ff;
     height: 100vh;
+    position: relative;
+
 }
 
 .navbar {
@@ -87,3 +91,121 @@ body {
     padding: 13px 16px;
     margin-left: 18px;
 }
+
+/* HERO SECTION */
+.hero-container {
+    margin-top: 130px;
+}
+
+.hero-container .info {
+    width: 51%;
+}
+
+.hero-container .sub-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #687691;
+}
+
+.hero-container .title {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 6.3rem;
+    line-height: 1.19;
+    color: #000336;
+}
+
+.hero-container .sub-title.desc {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    text-transform: lowercase;
+    color: #687691;
+}
+
+.hero-container .hero-cta {
+    margin-top: 40px;
+    min-width: 170px;
+}
+
+.hero-img {
+    position: absolute;
+    right: calc((100vw - 1110px) / 2 - 100px);
+    bottom: 0;
+}
+
+/* HERO SECTION */
+
+/* CLIENT SECTION */
+.client {
+    margin-top: 122px;
+}
+
+.client .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client .desc {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7d8589;
+}
+
+.client .row-desc {
+    margin-top: 23px;
+}
+
+.client .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+
+/* CLIENT SECTION */
+
+
+/* GUIDE SECTION */
+.guides {
+    margin-top: 200px;
+}
+
+.guides .guide-title {
+    position: relative;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.guides .guide-title::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
+    background: var(--text-color);
+}
+
+.guides .desc {
+    width: 459px;
+    max-width: 100%;
+    margin: 20px auto;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 30px;
+    text-align: center;
+    color: #5A6473;
+}
+
+/* GUIDE SECTION */
