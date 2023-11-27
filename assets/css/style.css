@@ -253,3 +253,42 @@ body {
 }
 
 /* GUIDE SECTION */
+
+/* FEATURE SECTION */
+.feature {
+    margin-top: 230px;
+}
+
+.feature .sub-title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #000336;
+}
+
+.feature .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.feature .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5A6473;
+}
+
+.feature .link {
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #0689ff;
+    text-decoration: none;
+}
+
+.feature .link .arrow {
+    margin-left: 8px;
+}
