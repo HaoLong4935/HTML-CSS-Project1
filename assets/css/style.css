@@ -50,6 +50,12 @@ body {
     overflow: hidden;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Header */
 .header {
     background-color: #e6f0ff;
@@ -150,7 +156,8 @@ body {
 
 /* CLIENT SECTION */
 .client {
-    margin-top: 122px;
+    margin-top: 79px;
+    padding: 43px 0 64px;
 }
 
 .client .row {
@@ -180,7 +187,8 @@ body {
 
 /* GUIDE SECTION */
 .guides {
-    margin-top: 200px;
+    margin-top: 40px;
+    padding: 93px 0 79px;
 }
 
 .guides .guide-title {
@@ -263,8 +271,8 @@ body {
 
 /* FEATURE SECTION */
 .feature {
-    margin-top: 120px;
-    padding: 110px;
+    margin-top: 40px;
+    padding: 110px 0;
     background: #f5fafe;
 }
 
@@ -368,4 +376,66 @@ body {
 
 .feature .item .icon:first-child {
     margin-left: 0;
+}
+
+/* STAUS */
+.status {
+    margin-top: 75px;
+    padding: 50px 0;
+}
+
+.status .content {
+    width: 1017px;
+}
+
+.status .row {
+    display: flex;
+}
+
+.status .img-block,
+.status .info {
+    width: 50%;
+}
+
+.status .img-block img {
+    display: block;
+    margin-left: auto;
+    width: 400px;
+    height: 460px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.status .info {
+    padding: 79px 0 0 165px;
+}
+
+.status .sub-title {
+    position: relative;
+    font-weight: 600;
+    width: 269px;
+    font-size: 3.5rem;
+    line-height: 1.29;
+    color: #000339;
+}
+
+.status .sub-title::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -10px;
+    display: block;
+    width: 41px;
+    height: 4px;
+    background: #000339;
+    border-radius: 12px;
+}
+
+.status .desc {
+    width: 309px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #a3a3a3;
 }
