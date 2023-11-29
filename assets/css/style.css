@@ -397,7 +397,45 @@ body {
     width: 50%;
 }
 
-.status .img-block img {
+.status .img-block {
+    position: relative;
+}
+
+.status .status-trend {
+    position: absolute;
+    width: 239px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 45px 22px 40px;
+    border-radius: 0 0 12px 12px;
+}
+
+.status-trend .value {
+    font-weight: 700;
+    font-size: 2.6rem;
+    letter-spacing: 0.01em;
+    color: #000336;
+}
+
+.status-trend .desc {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    line-height: 18px;
+    color: #a3a3a3;
+}
+
+.status-trend .seperate {
+    margin-top: 25px;
+    height: 2px;
+    background-color: #ececec;
+}
+
+.status-trend .icon {
+    margin-left: auto;
+}
+
+.status .img-block .image {
     display: block;
     margin-left: auto;
     width: 400px;
@@ -431,7 +469,7 @@ body {
     border-radius: 12px;
 }
 
-.status .desc {
+.status .info .desc {
     width: 309px;
     margin-top: 20px;
     font-weight: 400;
