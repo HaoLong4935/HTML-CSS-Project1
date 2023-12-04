@@ -477,3 +477,25 @@ body {
     line-height: 1.88;
     color: #a3a3a3;
 }
+
+.status .avatar-block {
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 16px;
+}
+
+.status .avatar-group {
+    display: flex;
+}
+
+.status .avtar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 16px;
+    margin-left: -3px;
+    height: 16px;
+    object-fit: cover;
+}
