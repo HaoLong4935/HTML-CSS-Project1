@@ -427,7 +427,7 @@ body {
 
 .status-trend .seperate {
     margin-top: 25px;
-    height: 2px;
+    height: 1.2px;
     background-color: #ececec;
 }
 
@@ -498,4 +498,75 @@ body {
     margin-left: -3px;
     height: 16px;
     object-fit: cover;
+}
+
+.status .avtar:first-child {
+    margin-left: 0px;
+}
+
+.status .row-qty {
+    margin-top: 110px;
+    justify-content: space-between;
+}
+
+.status .qty {
+    font-weight: 600;
+    font-size: 6.4rem;
+    color: #000000;
+}
+
+.status .qty-desc {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #a8a9aa;
+}
+
+/* subscription */
+.subscription {
+    margin-top: 90px;
+}
+
+.subscription .body {
+    position: relative;
+    display: flex;
+    height: 370px;
+    align-items: center;
+    background-color: #063183;
+    border-radius: 20px;
+}
+
+.subscription .info {
+    padding: 0 80px;
+    width: 671px;
+    max-width: 100%;
+}
+
+.subscription .sub-title {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.subscription .desc {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #ffff;
+    opacity: 0.75;
+}
+
+.subscription .btn {
+    margin-top: 20px;
+    min-width: 151px;
+    background: #fff;
+    color: #002366;
+}
+
+.subscription img {
+    position: absolute;
+    bottom: 0;
+    right: 221px;
 }
