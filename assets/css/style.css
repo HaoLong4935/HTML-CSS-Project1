@@ -570,3 +570,68 @@ body {
     bottom: 0;
     right: 221px;
 }
+
+/* FOOTER */
+.footer {
+    margin-top: 55px;
+    padding: 50px 0 58px;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .row-top {
+    gap: 185px;
+}
+
+.footer .heading {
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+
+.footer .list {
+    margin-top: 42px;
+}
+
+.footer .list .item {
+    margin-top: 18px;
+}
+
+.footer .item a,
+.footer .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #88888b;
+    white-space: nowrap;
+}
+
+.footer .desc {
+    white-space: normal;
+    line-height: 1.75;
+}
+
+.footer .social a {
+    text-decoration: none;
+}
+
+.footer .social {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.footer .row-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 81px;
+}
+
+.footer .copyright {
+    color: #88888b;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
